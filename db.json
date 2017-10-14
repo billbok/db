@@ -1,49 +1,41 @@
 {
   "clovers": [
-    {
-      "description": "Send a mail",
-      "name": "send_mail",
-      "score": 0
-    },
-    {
-      "description": "Create a ubuntu container",
-      "name": "docker_ubuntu",
-      "score": 0
-    },
-    {
-      "description": "Create a php container",
-      "name": "docker_php",
-      "score": 0
-    },
-    {
-      "description": "Create a curl container",
-      "name": "docker_curl",
-      "score": 0
-    },
-    {
-      "description": "Create a nginx container",
-      "name": "docker_nginx",
-      "score": 0
-    }
-  ],
-  "send_mail": {
+    "all": [
+      {
+        "description": "Send a mail",
+        "name": "send_mail",
+        "score": 0
+      },
+      {
+        "description": "Create a ubuntu container",
+        "name": "docker_ubuntu",
+        "score": 0
+      },
+      {
+        "description": "Create a php container",
+        "name": "docker_php",
+        "score": 0
+      }
+    ],
+    "send_mail": {
       "description": "Send a mail",
       "name": "send_mail",
       "score": 0,
       "template": "echo {{message}} | mail {{destinataire}}"
-  },
-  "docker_ubuntu": {
+    },
+    "docker_ubuntu": {
       "description": "Create ubuntu container",
       "name": "docker_ubuntu",
       "score": 0,
       "template": "docker run -dit ubuntu"
-  },
-  "docker_php": {
+    },
+    "docker_php": {
       "description": "Create php container",
       "name": "docker_php",
       "score": 0,
       "template": "docker run -dit php"
-  },
+    }
+  ],
   "users": [
     {
       "username": "toto",
