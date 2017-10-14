@@ -25,5 +25,27 @@
       "name": "docker_nginx",
       "score": 0
     }
+  ],
+  "users": [
+    {
+      "username": "toto",
+      "password": "toto"
+    },
+    {
+      "username": "titi",
+      "password": "titi"
+    },
+    {
+      "username": "tata",
+      "password": "tata"
+    },
+    {
+      "username": "tutu",
+      "password": "tutu"
+    },
+    {
+      "username": "tete",
+      "password": "tete"
+    }
   ]
 }
