@@ -1,4 +1,4 @@
-[
+{
   "clovers": [
     {
       "description": "Send a mail",
@@ -26,4 +26,4 @@
       "score": 0
     }
   ]
-]
+}
