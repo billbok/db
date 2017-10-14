@@ -1,5 +1,5 @@
 {
-  "clovers": [
+  "clovers": {
     "all": [
       {
         "description": "Send a mail",
@@ -35,7 +35,7 @@
       "score": 0,
       "template": "docker run -dit php"
     }
-  ],
+  },
   "users": [
     {
       "username": "toto",
