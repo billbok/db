@@ -1,27 +1,29 @@
 [
-  {
-    "description": "Send a mail",
-    "name": "send_mail",
-    "score": 0
-  },
-  {
-    "description": "Create a ubuntu container",
-    "name": "docker_ubuntu",
-    "score": 0
-  },
-  {
-    "description": "Create a php container",
-    "name": "docker_php",
-    "score": 0
-  },
-  {
-    "description": "Create a curl container",
-    "name": "docker_curl",
-    "score": 0
-  },
-  {
-    "description": "Create a nginx container",
-    "name": "docker_nginx",
-    "score": 0
-  },
+	"clovers": [
+		{
+			"description": "Send a mail",
+			"name": "send_mail",
+			"score": 0
+		},
+		{
+			"description": "Create a ubuntu container",
+			"name": "docker_ubuntu",
+			"score": 0
+		},
+		{
+			"description": "Create a php container",
+			"name": "docker_php",
+			"score": 0
+		},
+		{
+			"description": "Create a curl container",
+			"name": "docker_curl",
+			"score": 0
+		},
+		{
+			"description": "Create a nginx container",
+			"name": "docker_nginx",
+			"score": 0
+		}
+	]
 ]
