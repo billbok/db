@@ -44,19 +44,6 @@
       "score": 0,
       "template": "docker run -dit php"
   },
-  "docker_curl": {
-      "description": "Create curl container",
-      "template": "docker run -dit curl",
-      "name": "docker_curl",
-      "score": 0,
-      "template": "docker run -dit curl"
-  },
-  "docker_nginx": {
-      "description": "Create nginx container",
-      "name": "docker_nginx",
-      "score": 0,
-      "template": "docker run -dit nginx"
-  },
   "users": [
     {
       "username": "toto",
